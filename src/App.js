@@ -1,5 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
 function App() {
   return (
@@ -7,6 +8,9 @@ function App() {
       {/* <Navbar title="AppCiphers" aboutText="About AppCiphers"/> */}
       {/* <Navbar/> */}
       <Navbar title="AppCiphers"/>
+      <div className="container mb-3">
+        <TextForm heading="Enter the text to analyze below"/>
+      </div>
     </>
   );
 }
